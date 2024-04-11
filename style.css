@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body, html {
+    
+}
+
+
+.menu__superior {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.925);
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu__superior ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.menu__superior ul li {
+    background-color: transparent; 
+    margin-bottom: 5px; 
+    padding: 10px;
+    
+    
+}
+.menu__superior ul li a {
+    color: #c7c7c7;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+
+.menu__superior ul li a:hover {
+    color: #b3b3b3;
+}
+
+main {
+    min-height: calc(100vh - 40px);
+    width: 100%;
+    background-color: #a1a0a0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.promotion {
+    height: 75vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: center;
+}
+
+.promotion.iphone15pro {
+    background-image: url(hero_iphone15pro__i70z9oz3hj2i_mediumtall_2x.jpg);
+}
+   
+.promotion.iphone15 {
+    background-image: url(hero_iphone15_announce__uuemlcwczn6u_mediumtall_2x.jpg);
+}
+.promotion.smartwatch {
+    background-image: url(hero_apple_watch_series_9__x5wo4ptz2giu_medium_2x.jpg);
+}
+.promotion.macbook {
+    background-image: url(promo_macbook_air_m3__e43jegok3wuq_medium_2x.jpg);
+
+}
+.conteiner_grid {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.airpodspro {
+    background-image: url(promo_airpods_pro__erhb1guhr1si_large_2x.jpg);
+}
+.macbookpro{
+    background-image: url(promo_mbp__ek7p477bkp6q_large_2x.jpg);
+}
+
+.promotion__link {
+    padding: 40px 0px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.textblack {
+    color: black !important;
+}
+
+
+.promotion__link p {
+    font-size: calc(56 / 16 * 1rem);
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.promotion__link h2 {
+    font-size: calc(28 / 16 * 1rem);
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.promotion__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.promotion__buttons a {
+    padding: 10px 20px;
+    font-size: calc(16 / 16 * 1rem);
+    text-decoration: none;
+    color: #2997ff;
+    border: 1px solid #2997ff;
+    border-radius: 25px;
+}
+  
+.promotion__buttons a:first-child {
+    background-color: #2997ff;
+    color: #ffffff;
+}
