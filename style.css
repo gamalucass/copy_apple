@@ -60,6 +60,7 @@ main {
     background-repeat: no-repeat;
     object-fit: contain;
     background-position: center;
+    background-size: cover;
 }
 
 .promotion.iphone15pro {
@@ -76,6 +77,7 @@ main {
     background-image: url(promo_macbook_air_m3__e43jegok3wuq_medium_2x.jpg);
 
 }
+
 .conteiner_grid {
     width: 100%;
     display: grid;
@@ -88,6 +90,15 @@ main {
 }
 .macbookpro{
     background-image: url(promo_mbp__ek7p477bkp6q_large_2x.jpg);
+}
+.promotion.ipad{
+    background-image: url(promo_ipad__fioegapg12qi_large.jpg);
+}
+.promotion.watchultra{
+    background-image: url(promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg);
+}
+.promotion.fitness{
+    background-image: url(promo_fitness_alt__ck26n46yeb2a_large.jpg);
 }
 
 .promotion__link {
@@ -135,3 +146,48 @@ main {
     background-color: #2997ff;
     color: #ffffff;
 }
+.promotion.smartwatch > .promotion__link {
+    height: 100%;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+.textsmartwatch {
+    height: 100%;      
+}
+.promotion.smartwatch > .promotion__link > .promotion__buttons a:first-child {
+   color: black;
+   background-color: white;
+   border: 1px solid white;
+}
+.promotion.smartwatch > .promotion__link > .promotion__buttons a {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.promotion.ipad {
+    height: 100%;
+    width: 100%S;
+}
+.promotion.messi {
+    background-image: url(Apple-TV-MLS-Season-Pass-Lionel-Messi.jpg.og.jpg);
+}
+
+.promotion.messi > .promotion__link {
+    height: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.promotion.messi > .promotion__link > .promotion__buttons {
+    height: 100%;
+    align-items: end;
+    width: 800px;
+}
+.promotion.messi > .promotion__link > .promotion__buttons a{
+    color: black;
+   background-color: white;
+   border: 1px solid white;
+}
+    
